@@ -38,7 +38,7 @@
                     <div class="ind-days-box d-flex align-items-center">
                         <div class="left-box">
                             <div class="btn-box">
-                                <span>Batch No</span>
+                                <span>Batch No1</span>
                             </div>
                         </div>
                         <div class="right-box box">

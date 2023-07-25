@@ -51,7 +51,7 @@
                         </div>
                         <div class="subscription">
                             <ul id="menu-best-services" class="menu"><li id="menu-item-153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-153"><a href="#"><i class="fa fa-angle-double-right"></i>Computer Technology</a></li>
-                                <li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href=""><i class="fa fa-angle-double-right"></i>Civil & Architecture Technology</a></li>
+                                <li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="'/civil-and-architechture')}}"><i class="fa fa-angle-double-right"></i>Civil & Architecture Technology</a></li>
                                 <li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href=""><i class="fa fa-angle-double-right"></i> Electrical Technology</a></li>
                                 <li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href=""><i class="fa fa-angle-double-right"></i>Mechanical Technology</a></li>
                                 <li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href=""><i class="fa fa-angle-double-right"></i>Power Technology</a></li>
