@@ -92,7 +92,7 @@
                         <!-- Start Navigation List -->
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a class="active" href="{{url('/')}}">Home</a>
+                                <a href="{{url('/')}}">Home</a>
                             </li>
                             <li>
                                 <a href="{{url('/about')}}">About Us</a>

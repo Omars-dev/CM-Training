@@ -3,30 +3,6 @@
 @section('main-container')
 <!-- Start Post Software Details -->
 
-<!-- <section id="pos-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="pos-title">Training</h3>
-            </div>
-            <div class="col-md-12">
-                <div class="pos-banner container-fluid">
-                    <img src="images/pos.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="col-md-12">
-                <div class="pos-about">
-                    <h4 class="about-pos-title"><i class="fa fa-info-circle"></i> About Software</h4>
-                    <p>CM Training provides a full-range of ICT Consulting Services including Software Solutions, Web Design & Development & Infrastructure support for startup. Best ICT Consultancy firm in Bangladesh, we also provide different type of ICT training of general people inside or outside of our office</p>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section> -->
-
 <!-- Start course section -->
 <section class="courses-section section-padding">
     <div class="container">
@@ -38,7 +14,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        {{-- <div class="row">
             <!-- course item -->
             <div class="col-md-6 col-lg-3">
                 <div class="courses-item">
@@ -279,7 +255,300 @@
                 </div>
             </div>
             <!-- end course item -->
+        </div> --}}
+
+
+        <div class="row">
+            <!-- course item -->
+            <div class="col-md-6 col-lg-3">
+                <div class="industrial-courses-item">
+                    <a href="{{url('/computer-and-telecommunication')}}" class="link">
+                        <div class="industrial-course-item-inner">
+                            <div class="img-box">
+                                <img src="{{url('frontend/images/courses/computer.jpg')}}" alt="course img">
+                            </div>
+                            <div class="inner-details">
+                                <div class="industrial-course-title-height">
+                                    <h3 class="industrial-course-title">Computer & Telecommunication Technology</h3>
+                                </div>
+                            <div class="instructor">
+                                <img src="{{url('frontend/images/team/team.jpg')}}" alt="" style="width:30px;border-radius:50%;margin-right:5px">
+                                <span class="instructor-name">Md. Alomgir Hossain</span>
+                            </div>
+                            <div class="rating">
+                                <span class="average-rating">(5)</span>
+                                <span class="average-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="reviews">(142)</span>
+                            </div>
+                            <div class="more-option">
+                                <button class="btn btn-primary btn-block">View Details</button>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end course item -->
+            <!-- course item -->
+            <div class="col-md-6 col-lg-3">
+                <div class="industrial-courses-item">
+                    <a href="{{url('/civil-and-architecture')}}" class="link">
+                        <div class="industrial-course-item-inner">
+                            <div class="img-box">
+                                <img src="{{url('frontend/images/courses/civil.jpg')}}" alt="course img">
+                            </div>
+                            <div class="inner-details">
+                                <div class="industrial-course-title-height">
+                                    <h3 class="industrial-course-title">Civil & Architecture Technology</h3>
+                                </div>
+                            <div class="instructor">
+                                <img src="{{url('frontend/images/team/team.jpg')}}" alt="" style="width:30px;border-radius:50%;margin-right:5px">
+                                <span class="instructor-name">Md. Alomgir Hossain</span>
+                            </div>
+                            <div class="rating">
+                                <span class="average-rating">(5)</span>
+                                <span class="average-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="reviews">(142)</span>
+                            </div>
+                            <div class="more-option">
+                                <button class="btn btn-primary btn-block">View Details</button>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end course item -->
+            <!-- course item -->
+            <div class="col-md-6 col-lg-3">
+                <div class="industrial-courses-item">
+                    <a href="{{url('/electrical')}}" class="link">
+                        <div class="industrial-course-item-inner">
+                            <div class="img-box">
+                                <img src="{{url('frontend/images/courses/electrical.jpg')}}" alt="course img">
+                            </div>
+                            <div class="inner-details">
+                                <div class="industrial-course-title-height">
+                                    <h3 class="industrial-course-title">Electrical Technology</h3>
+                                </div>
+                            <div class="instructor">
+                                <img src="{{url('frontend/images/team/team.jpg')}}" alt="" style="width:30px;border-radius:50%;margin-right:5px">
+                                <span class="instructor-name">Md. Alomgir Hossain</span>
+                            </div>
+                            <div class="rating">
+                                <span class="average-rating">(5)</span>
+                                <span class="average-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="reviews">(142)</span>
+                            </div>
+                            <div class="more-option">
+                                <button class="btn btn-primary btn-block">View Details</button>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end course item -->
+            <!-- course item -->
+            <div class="col-md-6 col-lg-3">
+                <div class="industrial-courses-item">
+                    <a href="{{url('/electronics')}}" class="link">
+                        <div class="industrial-course-item-inner">
+                            <div class="img-box">
+                                <img src="{{url('frontend/images/courses/electronics.jpg')}}" alt="course img">
+                            </div>
+                            <div class="inner-details">
+                                <div class="industrial-course-title-height">
+                                    <h3 class="industrial-course-title">Electronics Technology</h3>
+                                </div>
+                            <div class="instructor">
+                                <img src="{{url('frontend/images/team/team.jpg')}}" alt="" style="width:30px;border-radius:50%;margin-right:5px">
+                                <span class="instructor-name">Md. Alomgir Hossain</span>
+                            </div>
+                            <div class="rating">
+                                <span class="average-rating">(5)</span>
+                                <span class="average-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="reviews">(142)</span>
+                            </div>
+                            <div class="more-option">
+                                <button class="btn btn-primary btn-block">View Details</button>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end course item -->
+            <!-- course item -->
+            <div class="col-md-6 col-lg-3">
+                <div class="industrial-courses-item">
+                    <a href="{{url('/mechanical')}}" class="link">
+                        <div class="industrial-course-item-inner">
+                            <div class="img-box">
+                                <img src="{{url('frontend/images/courses/mechanical.webp')}}" alt="course img">
+                            </div>
+                            <div class="inner-details">
+                                <div class="industrial-course-title-height">
+                                    <h3 class="industrial-course-title">Mechanical Technology</h3>
+                                </div>
+                            <div class="instructor">
+                                <img src="{{url('frontend/images/team/team.jpg')}}" alt="" style="width:30px;border-radius:50%;margin-right:5px">
+                                <span class="instructor-name">Md. Alomgir Hossain</span>
+                            </div>
+                            <div class="rating">
+                                <span class="average-rating">(5)</span>
+                                <span class="average-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="reviews">(142)</span>
+                            </div>
+                            <div class="more-option">
+                                <button class="btn btn-primary btn-block">View Details</button>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end course item -->
+            <!-- course item -->
+            <div class="col-md-6 col-lg-3">
+                <div class="industrial-courses-item">
+                    <a href="{{url('/power')}}" class="link">
+                        <div class="industrial-course-item-inner">
+                            <div class="img-box">
+                                <img src="{{url('frontend/images/courses/power.png')}}" alt="course img">
+                            </div>
+                            <div class="inner-details">
+                                <div class="industrial-course-title-height">
+                                    <h3 class="industrial-course-title">Power Technology</h3>
+                                </div>
+                            <div class="instructor">
+                                <img src="{{url('frontend/images/team/team.jpg')}}" alt="" style="width:30px;border-radius:50%;margin-right:5px">
+                                <span class="instructor-name">Md. Alomgir Hossain</span>
+                            </div>
+                            <div class="rating">
+                                <span class="average-rating">(5)</span>
+                                <span class="average-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="reviews">(142)</span>
+                            </div>
+                            <div class="more-option">
+                                <button class="btn btn-primary btn-block">View Details</button>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end course item -->
+            <!-- course item -->
+            <div class="col-md-6 col-lg-3">
+                <div class="industrial-courses-item">
+                    <a href="{{url('/power')}}" class="link">
+                        <div class="industrial-course-item-inner">
+                            <div class="img-box">
+                                <img src="{{url('frontend/images/courses/power.png')}}" alt="course img">
+                            </div>
+                            <div class="inner-details">
+                                <div class="industrial-course-title-height">
+                                    <h3 class="industrial-course-title">Power Technology</h3>
+                                </div>
+                            <div class="instructor">
+                                <img src="{{url('frontend/images/team/team.jpg')}}" alt="" style="width:30px;border-radius:50%;margin-right:5px">
+                                <span class="instructor-name">Md. Alomgir Hossain</span>
+                            </div>
+                            <div class="rating">
+                                <span class="average-rating">(5)</span>
+                                <span class="average-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="reviews">(142)</span>
+                            </div>
+                            <div class="more-option">
+                                <button class="btn btn-primary btn-block">View Details</button>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end course item -->
+            <!-- course item -->
+            <div class="col-md-6 col-lg-3">
+                <div class="industrial-courses-item">
+                    <a href="{{url('/power')}}" class="link">
+                        <div class="industrial-course-item-inner">
+                            <div class="img-box">
+                                <img src="{{url('frontend/images/courses/power.png')}}" alt="course img">
+                            </div>
+                            <div class="inner-details">
+                                <div class="industrial-course-title-height">
+                                    <h3 class="industrial-course-title">Power Technology</h3>
+                                </div>
+                            <div class="instructor">
+                                <img src="{{url('frontend/images/team/team.jpg')}}" alt="" style="width:30px;border-radius:50%;margin-right:5px">
+                                <span class="instructor-name">Md. Alomgir Hossain</span>
+                            </div>
+                            <div class="rating">
+                                <span class="average-rating">(5)</span>
+                                <span class="average-stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </span>
+                                <span class="reviews">(142)</span>
+                            </div>
+                            <div class="more-option">
+                                <button class="btn btn-primary btn-block">View Details</button>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- end course item -->
         </div>
+
         <div class="row">
 
         </div>

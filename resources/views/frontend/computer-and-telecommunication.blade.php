@@ -33,8 +33,28 @@
                     </div>
                 {{-- End of promo box --}}
 
+                <div class="courses-header box" style="background-color: #FFEFDF; border-radius: 8px;padding:30px">
+                    <div class="rating">
+                        <span class="average-rating">(4.5)</span>
+                        <span class="average-stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </span>
+                        <span class="reviews">(230 Reviews)</span>
+                    </div>
+                    <ul>
+                        <li>enrolled students - <span>120</span></li>
+                        <li>created by - <span>john doe</span></li>
+                        <li>last updated - <span>10/07/2023</span></li>
+                        <li>language - <span>bangla</span></li>
+                    </ul>
+                </div>
+
                 {{-- batch box --}}
-                <div class="days-section">
+                {{-- <div class="days-section">
                     <div class="ind-days-box d-flex align-items-center">
                         <div class="left-box">
                             <div class="btn-box">
@@ -50,7 +70,7 @@
                             <span>Day ( 00:00 PM - PM)</span>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             {{-- End of batch box --}}
 
                 <!-- course tab -->
