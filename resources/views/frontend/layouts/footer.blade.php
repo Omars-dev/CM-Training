@@ -29,7 +29,7 @@
 
                         <div class="latest-tweet">
                             <div class="media">
-                                <ul id="menu-best-services" class="menu"><li id="menu-item-153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-153"><a href="{{url('/course-details')}}"><i class="fa fa-angle-double-right"></i> Freelancing & Outsourcing</a></li>
+                                <ul id="menu-best-services" class="menu"><li id="menu-item-153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-153"><a href=""><i class="fa fa-angle-double-right"></i> Freelancing & Outsourcing</a></li>
                                     <li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="{{url('/hardware-and-networking')}}"><i class="fa fa-angle-double-right"></i> Hardware & Networking</a></li>
                                     <li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="{{url('/routing-and-switching')}}"><i class="fa fa-angle-double-right"></i> Routing & Switching</a></li>
                                     <li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="{{url('/network-security')}}"><i class="fa fa-angle-double-right"></i> Network Security</a></li>
@@ -51,12 +51,12 @@
                         </div>
                         <div class="subscription">
                             <ul id="menu-best-services" class="menu"><li id="menu-item-153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-153"><a href="#"><i class="fa fa-angle-double-right"></i> Computer Technology</a></li>
-                                <li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="'/civil-and-architechture')}}"><i class="fa fa-angle-double-right"></i> Civil & Architecture Technology</a></li>
-                                <li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href=""><i class="fa fa-angle-double-right"></i> Electrical Technology</a></li>
+                                <li id="menu-item-154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154"><a href="{{url('/civil-and-architechture')}}"><i class="fa fa-angle-double-right"></i> Civil & Architecture Technology</a></li>
+                                <li id="menu-item-155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-155"><a href="{{url('/electrical')}}"><i class="fa fa-angle-double-right"></i> Electrical Technology</a></li>
                                 <li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href=""><i class="fa fa-angle-double-right"></i> Mechanical Technology</a></li>
-                                <li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href=""><i class="fa fa-angle-double-right"></i> Power Technology</a></li>
-                                <li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159"><a href=""><i class="fa fa-angle-double-right"></i> Electronics Technology</a></li>
-                                <li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="#"><i class="fa fa-angle-double-right"></i> Telecommunication Technology</a></li>
+                                <li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="{{url('/mechanical')}}"><i class="fa fa-angle-double-right"></i> Power Technology</a></li>
+                                <li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159"><a href="{{url('/electrnics')}}"><i class="fa fa-angle-double-right"></i> Electronics Technology</a></li>
+                                <li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="{{url('/telecommunication')}}"><i class="fa fa-angle-double-right"></i> Telecommunication Technology</a></li>
                                 </ul>
 
                         </div>
