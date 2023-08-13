@@ -96,6 +96,7 @@
                             <ul>
                                 <li><a href="#" class="active">Home</a></li>
                                 <li><a href="{{url('/about')}}">About</a></li>
+                                <li><a href="{{url('/industrial-attachment')}}">Industrial Attachment</a></li>
                                 <li><a href="{{url('/contact')}}">Contact</a></li>
                             </ul>
                         </div>
